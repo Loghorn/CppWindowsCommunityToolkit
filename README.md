@@ -31,4 +31,4 @@ NuGet is a standard package manager for .NET applications which is built into Vi
 
 This project has adopted the code of conduct defined by the [Contributor Covenant](http://contributor-covenant.org/)
 to clarify expected behavior in our community.
-For more information see the [.NET Foundation Code of Conduct](CODE_OF_CONDUCT.md).
+For more information see the [Code of Conduct](CODE_OF_CONDUCT.md).
