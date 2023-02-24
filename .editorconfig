@@ -1,0 +1,48 @@
+# Remove the line below if you want to inherit .editorconfig settings from higher directories
+root = true
+
+# All files
+[*]
+
+#### Core EditorConfig Options ####
+
+# Encoding
+charset = utf-8
+
+# Indentation and spacing
+tab_width = 4
+indent_size = 4
+indent_style = tab
+
+# New line preferences
+end_of_line = unset
+insert_final_newline = true
+
+#### Build files ####
+
+# Solution files
+[*.{sln,slnx}]
+tab_width = 4
+indent_size = 4
+indent_style = tab
+
+# Configuration files
+[*.{json,xml,yml,config,runsettings}]
+tab_width = 2
+indent_size = 2
+indent_style = tab
+
+# MSBuild files
+[*.{slnf,props,targets,projitems,csproj,shproj}]
+tab_width = 2
+indent_size = 2
+indent_style = tab
+
+#### Source files ####
+
+# Markdown files
+[*.md]
+tab_width = 2
+indent_size = 2
+indent_style = space
+insert_final_newline = true
